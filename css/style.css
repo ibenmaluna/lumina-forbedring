@@ -439,21 +439,6 @@ footer {
   /* Main */
 
   /* Benefits  */
-  .benefits-info {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 34px;
-  }
-
-  .benefit-product-360 {
-    display: block;
-    width: 50%;
-  }
-
-  .benefit-item img {
-    width: 98px;
-  }
 
   /* Product gallery */
   .product-gallery {
