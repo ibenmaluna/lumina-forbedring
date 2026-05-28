@@ -169,6 +169,10 @@ section {
   font-weight: var(--font-weight-semibold);
   cursor: pointer;
 }
+
+.hero-content {
+  margin-left: 40px;
+}
 /*---------------------------------------------------------------------- */
 
 /* Benefit section */
