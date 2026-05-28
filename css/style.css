@@ -176,41 +176,48 @@ section {
 /*---------------------------------------------------------------------- */
 
 /* Benefit section */
-.benefits-info {
-  position: relative;
+
+.benefits-section {
+background-color: var(--background-color);
+padding: 56px 80px;
+text-align: center;
+margin: 0;
 }
 
-.benefits-background {
-  width: 100%;
-  position: absolute;
-  top: 0;
-  z-index: -2;
+.benefits-section h2 {
+  text-align: center;
+  font-size: var(--font-size-large);
+  font-weight: var(--font-size-medium);
+  margin-bottom: 48px;
 }
 
 .benefit-list {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: var(--spacing-md);
+  justify-content: center;
+  gap: 120px;
 }
 
 .benefit-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  max-width: 190px;
+  text-align: center;
 }
 
 .benefit-item img {
-  width: 128px;
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+  margin-bottom: 18px;
 }
 
-.benefit-item .benefit-head {
-  font-size: var(--font-size-medium);
+.benefit-item h3 {
+  font-size: var(--font-size-base);
   font-weight: var(--font-weight-semibold);
+  margin-bottom: 8px;
 }
 
-.benefit-product-360 {
-  display: none;
+.benefit-item p {
+  font-size: var(--font-size-base-small);
+  line-height: 1.5;
 }
 
 /* Product gallery */
