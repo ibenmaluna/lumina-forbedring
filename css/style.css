@@ -412,81 +412,7 @@ margin-bottom: 24px;
 }
 
 /* Specifications */
-.spec-list {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  gap: var(--spacing-md);
-}
 
-.spec-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-.spec-item .spec-head {
-  font-size: var(--font-size-medium);
-  font-weight: var(--font-weight-semibold);
-}
-
-.cta-section button {
-  border-radius: var(--spacing-lg);
-  width: 100%;
-
-  padding: 16px 0;
-
-  background-color: var(--highlight-color);
-  color: var(--white-color);
-  box-shadow: 0 4px 8px var(--black-transparent-color);
-
-  font-size: var(--font-size-base-big);
-  font-weight: var(--font-weight-semibold);
-  transition: background-color ease 0.5s;
-}
-
-/* Cta buy */
-.cta-section button:hover {
-  background-color: var(--btn-hover-color);
-  cursor: pointer;
-}
-
-/* social media */
-.social-media-mobile {
-  display: flex;
-  margin-inline: auto;
-  align-items: center;
-  gap: var(--spacing-lg);
-}
-
-.social-media-desktop {
-  display: none;
-}
-
-.social-media-mobile img {
-  width: 100%;
-  min-width: 0;
-}
-
-.social-media-btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  width: 50px;
-  height: 50px;
-
-  border-radius: 100px;
-  flex-shrink: 0;
-  padding: 4px;
-  background-color: var(--accent-color);
-  box-shadow: 0 4px 8px var(--black-transparent-color);
-  transition: background-color ease 0.35s;
-}
-
-.social-media-btn:hover {
-  background-color: rgb(235, 206, 202);
-}
 
 /* Footer */
 footer {
@@ -564,57 +490,6 @@ footer {
   }
 
   /* Specifications */
-  .spec-list {
-    grid-template-columns: repeat(3, 1fr);
-    gap: var(--spacing-lg);
-  }
-
-  .spec-item img {
-    width: 94px;
-    margin-bottom: var(--spacing-md);
-  }
-
-  /* Cta buy */
-  .cta-section button {
-    display: block;
-    margin-inline: auto;
-    width: 50%;
-    padding: 40px 126px;
-    border-radius: 100px;
-    font-size: var(--font-size-large);
-  }
-
-  /* Social media */
-  .social-media-mobile {
-    display: none;
-  }
-
-  .social-media-desktop {
-    display: flex;
-    flex-direction: column;
-    gap: var(--spacing-lg);
-  }
-
-  .social-media-desktop-gallery {
-    display: flex;
-  }
-
-  .social-media-desktop-gallery img {
-    width: 100%;
-    min-width: 0;
-  }
-
-  .social-media-desktop-btns {
-    display: flex;
-    justify-content: center;
-    gap: var(--spacing-lg);
-  }
-
-  .social-media-btn {
-    width: 70px;
-    height: 70px;
-    padding: var(--spacing-md);
-  }
 
   /* footer */
   .newsletter input {
