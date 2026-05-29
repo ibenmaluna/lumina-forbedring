@@ -2,22 +2,22 @@ const farver = [
   {
     navn: "Dusty Rose",
     id: "dusty-rose",
-    billede: "dusty-rose",
+    mappe: "dusty-rose",
   },
   {
     navn: "Moonlight White",
     id: "moonlight-white",
-    billede: "moonlight-white",
+    mappe: "moonlight-white",
   },
   {
     navn: "Sage Green",
     id: "sage-green",
-    billede: "sage-green",
+    mappe: "sage-green",
   },
   {
     navn: "Lavender Mist",
     id: "lavender-mist",
-    billede: "lavender-mist",
+    mappe: "lavender-mist",
   },
 ];
 
@@ -56,10 +56,10 @@ function opdaterProdukt() {
 
 farveKnapper.forEach((knap, indeks) => {
   knap.addEventListener("click", () => {
-    nuværendeFarve = indeks;
+    currentFarve = indeks;
 
     /* starter altid på hovedbilledet */
-    nuværendeVinkel = 0;
+    currentVinkel = 0;
 
     opdaterProdukt();
   });
@@ -68,10 +68,10 @@ farveKnapper.forEach((knap, indeks) => {
 /* Venstre pil */
 
 pileKnapper[0].addEventListener("click", () => {
-  nuværendeVinkel--;
+  currentVinkel--;
 
-  if (nuværendeVinkel < 0) {
-    nuværendeVinkel = vinkler.length - 1;
+  if (currentVinkel < 0) {
+    currentVinkel = vinkler.length - 1;
   }
 
   opdaterProdukt();
@@ -80,10 +80,10 @@ pileKnapper[0].addEventListener("click", () => {
 /* Højre pil */
 
 pileKnapper[1].addEventListener("click", () => {
-  nuværendeVinkel++;
+  currentVinkel++;
 
-  if (nuværendeVinkel >= vinkler.length) {
-    nuværendeVinkel = 0;
+  if (currentVinkel >= vinkler.length) {
+    currentVinkel = 0;
   }
 
   opdaterProdukt();
