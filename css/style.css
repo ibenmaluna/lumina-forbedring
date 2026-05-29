@@ -1,7 +1,7 @@
 
 :root {
   /* Colors */
-  --background-color: #E9E0DE;
+  --background-color: #F9F1F0;
   --accent-color: #FDEAE8;
   --highlight-color: #D6898C;
 
@@ -438,6 +438,7 @@ margin-bottom: 24px;
 
 .social-heading img {
   width: 22px;
+  cursor: pointer;
 }
 
 /* social */
