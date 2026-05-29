@@ -20,3 +20,10 @@ const farver = [
     billede: "lavender-mist",
   },
 ];
+
+const vinkler = ["product", "front", "left", "right", "top"];
+
+const produktBillede = document.querySelector(".color-product-img");
+const farveNavn = document.querySelector(".color-info h3");
+const farveKnapper = document.querySelectorAll(".color-cirkle");
+const pileKnapper = document.querySelectorAll(".arrow-btn");
