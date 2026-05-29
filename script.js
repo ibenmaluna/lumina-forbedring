@@ -77,3 +77,15 @@ pileKnapper[0].addEventListener("click", () => {
   opdaterProdukt();
 });
 
+/* Højre pil */
+
+pileKnapper[1].addEventListener("click", () => {
+  nuværendeVinkel++;
+
+  if (nuværendeVinkel >= vinkler.length) {
+    nuværendeVinkel = 0;
+  }
+
+  opdaterProdukt();
+});
+
