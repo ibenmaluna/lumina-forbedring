@@ -1,16 +1,11 @@
 
 :root {
   /* Colors */
-  --background-color: #fff4f0;
-  --accent-color: #fdebe9;
-  --highlight-color: #ff92ac;
-  --btn-hover-color: #e87993;
+  --background-color: #E9E0DE;
+  --accent-color: #FDEAE8;
+  --highlight-color: #D6898C;
 
-  --footer-bg-color: #fdeae8;
-  --footer-top-color: #483e3e;
-
-  --black-color: #101010;
-  --black-transparent-color: rgb(16, 16, 16, 0.25);
+  --black-color: #000000;
   --white-color: #ffffff;
 
   --dusty-rose-color: #de9498;
@@ -19,12 +14,11 @@
   --lavender-mist-color: #dfb9e6;
 
   /* Font family */
-  --font-family: "Poppins", sans-serif;
+  --font-family: "Poppins",sans-serif;
 
   /* Font size */
   --font-size-base-small: 0.8rem;
   --font-size-base: 1rem;
-  --font-size-base-big: 1.2rem;
   --font-size-medium: 1.44rem;
   --font-size-large: 1.728rem;
   --font-size-xl: 2.074rem;
@@ -32,7 +26,7 @@
 
   /* hero size */
   --font-size-hero: 9.375rem;
-  --font-size-mobile: 3rem;
+  
 
   /* Font weight */
   --font-weight-small: 200;
@@ -40,10 +34,6 @@
   --font-weight-medium: 500;
   --font-weight-semibold: 700;
   --font-weight-bold: 900;
-
-  /* Spacing */
-  --spacing-md: 16px;
-  --spacing-lg: 32px;
 }
 
 /* Reset */
@@ -58,29 +48,20 @@ html {
   background-color: var(--background-color);
 }
 
-/* desktop set as deafult */
 body {
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
 }
 
-h1,
-h2 {
-  text-align: center;
-}
 
 h1 {
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-
-  font-size: clamp(var(--font-size-mobile), 13vw, var(--font-size-hero));
+  font-size:var(--font-size-hero);
   line-height: 120%;
 }
+
 h2 {
-  font-size: clamp(var(--font-size-xl), 13vw, var(--font-size-xxl));
-  margin-bottom: 2rem;
+  font-size: var(--font-size-xxl);
 }
 h3 {
   font-size: var(--font-size-large);
@@ -90,15 +71,6 @@ button {
   border: none;
 }
 
-section {
-  margin: 40px 0;
-}
-
-/* Header */
-.logo {
-  display: block;
-  margin-inline: auto;
-}
 
 /* Main */
 /*----------------------------- Hero section  ----------------------------- */
