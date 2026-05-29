@@ -50,3 +50,18 @@ function opdaterProdukt() {
   const aktivKnap = document.querySelector(`#${valgtFarve.id}`);
   aktivKnap.classList.add("color-selected");
 }
+
+// farveprikker
+
+
+farveKnapper.forEach((knap, indeks) => {
+  knap.addEventListener("click", () => {
+    nuværendeFarve = indeks;
+
+    /* starter altid på hovedbilledet */
+    nuværendeVinkel = 0;
+
+    opdaterProdukt();
+  });
+});
+
