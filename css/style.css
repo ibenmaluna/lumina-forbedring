@@ -292,7 +292,7 @@ margin: 0;
   line-height: 1;
   cursor: pointer;
   outline: 1px solid var(--black-color);
-  outline-offset: 4px;
+  
 }
 
 .color-info {
