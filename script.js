@@ -65,3 +65,15 @@ farveKnapper.forEach((knap, indeks) => {
   });
 });
 
+/* Venstre pil */
+
+pileKnapper[0].addEventListener("click", () => {
+  nuværendeVinkel--;
+
+  if (nuværendeVinkel < 0) {
+    nuværendeVinkel = vinkler.length - 1;
+  }
+
+  opdaterProdukt();
+});
+
