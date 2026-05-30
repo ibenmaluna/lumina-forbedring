@@ -365,7 +365,7 @@ justify-self: center;
 .rain-content h2 {
 text-align: left;
 font-size: 3.5rem;
-font-weight: var(font --font-weight-medium);
+font-weight: var(--font-weight-medium);
 margin-bottom: 24px;
 }
 
@@ -374,7 +374,7 @@ margin-bottom: 24px;
   line-height: 1.6;
 }
 
-.rain-setion::after {
+.rain-section::after {
   content: "";
   position: absolute;
   inset: 0;
