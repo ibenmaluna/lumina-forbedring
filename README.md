@@ -4,7 +4,7 @@
 
 Dette projekt er udviklet som en del af 1. semester på Multimediedesign.
 
-Projektet består af en landingpage for den fiktive Bluetooth-højtaler **LUMINA One**. Formålet med projektet er at præsentere produktet gennem et visuelt design og skabe en interaktiv brugeroplevelse.
+Projektet består af en landingpage af højtaleren **LUMINA One**. Formålet med projektet er at præsentere produktet gennem et visuelt design og skabe en interaktiv brugeroplevelse, ved at forbedre 1 case fra starten af semesteret
 
 Brugeren kan:
 
@@ -71,17 +71,16 @@ I `style.css` har jeg blandt andet arbejdet med:
 - Farvepalette
 - Layout og spacing
 
-Jeg har valgt at samle alle styles i én CSS-fil, da projektets størrelse gør det overskueligt.
 
 ### JavaScript
 
-`script.js` styrer den interaktive produktvisning.
+`script.js` styrer den interaktive del af kodningen.
 
 JavaScript bruges til:
 
 - At skifte mellem produktets farver
 - At skifte mellem forskellige produktvinkler
-- At opdatere billeder og tekst dynamisk
+- At opdatere billeder og tekst 
 - At reagere på brugerens klik gennem event listeners
 
 ### Billeder
@@ -103,14 +102,9 @@ Denne struktur gør projektet lettere at vedligeholde og finde rundt i.
 
 Jeg har valideret projektets CSS-fil (`style.css`) ved hjælp af W3C CSS Validator.
 
-Under valideringen fandt jeg enkelte syntaksfejl og skrivefejl i brugen af CSS-variabler. Disse fejl blev rettet, hvorefter filen blev valideret igen.
+Under valideringen fandt jeg enkelte  og skrivefejl i brugen af CSS-variabler. som f.eks tastefejl i rgba kode under color gallery , tastefejl i variabler, Disse fejl blev rettet, hvorefter filen blev valideret igen.
 
-Valideringen blev brugt til at sikre korrekt syntaks og forbedre kvaliteten af koden.
 
-Validator:
-https://jigsaw.w3.org/css-validator/
-
----
 
 ## Validering af HTML
 
@@ -123,12 +117,8 @@ Valideringen blev anvendt til at kontrollere:
 - Manglende attributter
 - Generelle syntaksfejl
 
-Eventuelle fejl og advarsler blev gennemgået og rettet.
+den meldte fejl, på nogle af mine mapper (stemningbilleder, det blev rettet og er nu valideret)
 
-Validator:
-https://validator.w3.org/
-
----
 
 ## JavaScript datastruktur
 
@@ -158,7 +148,7 @@ Derudover anvendes et array kaldet `vinkler`:
 const vinkler = ["product", "front", "left", "right", "top"];
 ```
 
-Jeg har valgt denne datastruktur, fordi den gør det nemt at håndtere flere produktvarianter og vinkler. Hvis der senere skal tilføjes flere farver eller billeder, kan det gøres ved blot at tilføje nye værdier til arraysene uden at ændre resten af koden.
+Jeg har valgt denne datastruktur, fordi den gør det nemt at håndtere flere produktvarianter og vinkler. Hvis der senere skal tilføjes flere farver eller billeder, kan det gøres ved at tilføje nye værdier til arraysene uden at ændre resten af koden.
 
 ---
 
@@ -181,7 +171,7 @@ function opdaterProdukt() {
 
 ### Hvad gør koden?
 
-Funktionen `opdaterProdukt()` er central for projektets interaktivitet.
+Funktionen `opdaterProdukt()` er vigtigt for projektets måde at være interaktiv på.
 
 Først hentes den aktuelle farve fra arrayet `farver`.
 
@@ -193,7 +183,6 @@ Efterfølgende opdateres billedets `alt`-tekst samt navnet på den valgte farve.
 
 Funktionen kaldes hver gang brugeren klikker på en farveknap eller en af pilene.
 
-Koden er vigtig for projektet, fordi den forbinder brugerens handlinger med DOM'en og gør produktvisningen dynamisk uden at genindlæse siden.
 
 ---
 
@@ -210,7 +199,7 @@ Jeg har fået erfaring med:
 - Arrays og objekter som datastrukturer
 - Event listeners og brugerinteraktion
 
-Projektet har givet mig en bedre forståelse for, hvordan JavaScript kan bruges til at skabe dynamiske og interaktive brugeroplevelser.
+Projektet har givet mig en bedre forståelse for, hvordan JavaScript kan bruges til at skabe dynamiske og interaktive brugeroplevelser. dog er der stadig lang vej endnu, og jeg har stadig meget at lære, samt meget at huske.. den ene dag giver det mening og sidder fast og virker ligepludselig logisk. den anden dag, tager det længere tid for at forstå det jeg egentlig forstod igår... men jeg har helt klart fået en bedre grundlæggene forståelse for kodning .
 
 ---
 

@@ -278,7 +278,7 @@ margin: 0;
 
 .color-product-img {
   width: 260px;
-  border: 1px solid rgba(16,16,16,00.35s);
+  border: 1px solid rgba(16,16,16,0.35);
   padding: 24px;
 }
 
@@ -301,7 +301,7 @@ justify-self: center;
 
 .color-info h3 {
   font-size: var(--font-size-base);
-  font-weight: var(font --font-weight-semibold);
+  font-weight: var(--font-weight-semibold);
   margin-bottom: 18px;
 }
 
@@ -378,11 +378,6 @@ margin-bottom: 24px;
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(
-    90deg,
-    rgba(0,0,0,0.45)
-    rgba(0,0,0,0.45)
-  );
 }
 
 /* Specifications og social proof */
@@ -494,7 +489,7 @@ border-radius: 100px;
 padding: 14px 28px;
 background-color: var(--white-color);
 color: var(--highlight-color);
-font-weight: var(font --font-weight-semibold);
+font-weight: var(--font-weight-semibold);
 cursor: pointer;
 }
 
@@ -520,7 +515,7 @@ cursor: pointer;
 
 .footer-links p {
   margin-bottom: 10px;
-  font-size: var(font --font-size-base-small);
+  font-size: var(--font-size-base-small);
   cursor: pointer;
 }
 
