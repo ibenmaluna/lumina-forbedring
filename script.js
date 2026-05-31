@@ -1,3 +1,5 @@
+"use strict"
+
 const farver = [
   {
     navn: "Dusty Rose",

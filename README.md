@@ -2,8 +2,6 @@
 
 ## Kort beskrivelse af projektet
 
-Dette projekt er udviklet som en del af 1. semester på Multimediedesign.
-
 Projektet består af en landingpage af højtaleren **LUMINA One**. Formålet med projektet er at præsentere produktet gennem et visuelt design og skabe en interaktiv brugeroplevelse, ved at forbedre 1 case fra starten af semesteret
 
 Brugeren kan:
@@ -15,8 +13,8 @@ Brugeren kan:
 
 Projektet er udviklet med:
 
-- HTML5
-- CSS3
+- HTML
+- CSS
 - JavaScript
 - Visual Studio Code
 - GitHub
@@ -56,7 +54,8 @@ Siden er opbygget af flere sektioner, blandt andet:
 - Specifikationer
 - Footer
 
-Jeg har anvendt semantiske HTML-elementer som `<section>`, `<article>`, `<main>` og `<footer>` for at skabe en tydelig struktur.
+Jeg har anvendt semantiske HTML-elementer som `<section>`, `<article>`, `<main>` og `<footer>` for at skabe en overskuelig struktur.
+
 
 ### CSS
 
@@ -67,16 +66,14 @@ I `style.css` har jeg blandt andet arbejdet med:
 - CSS variables
 - Flexbox
 - CSS Grid
-- Typografi
-- Farvepalette
+- Farvepalette i variabler
 - Layout og spacing
-
 
 ### JavaScript
 
 `script.js` styrer den interaktive del af kodningen.
 
-JavaScript bruges til:
+JavaScript har jeg brugt til:
 
 - At skifte mellem produktets farver
 - At skifte mellem forskellige produktvinkler
@@ -94,7 +91,7 @@ Billederne er organiseret i undermapper:
 - logo
 - stemning
 
-Denne struktur gør projektet lettere at vedligeholde og finde rundt i.
+Denne mappestruktur gør projektet lettere at finde rundt i.
 
 ---
 
@@ -102,22 +99,19 @@ Denne struktur gør projektet lettere at vedligeholde og finde rundt i.
 
 Jeg har valideret projektets CSS-fil (`style.css`) ved hjælp af W3C CSS Validator.
 
-Under valideringen fandt jeg enkelte  og skrivefejl i brugen af CSS-variabler. som f.eks tastefejl i rgba kode under color gallery , tastefejl i variabler, Disse fejl blev rettet, hvorefter filen blev valideret igen.
+Under valideringen fandt jeg enkelte skrivefejl. som f.eks tastefejl i rgba kode under color gallery , tastefejl i variabler, Disse fejl blev rettet, hvorefter filen blev valideret igen.
 
+img/validering/css.validering.png
 
 
 ## Validering af HTML
 
 Jeg har valideret projektets HTML-fil (`index.html`) ved hjælp af W3C Markup Validation Service.
 
-Valideringen blev anvendt til at kontrollere:
-
-- Korrekt HTML-struktur
-- Korrekt brug af elementer
-- Manglende attributter
-- Generelle syntaksfejl
 
 den meldte fejl, på nogle af mine mapper (stemningbilleder, det blev rettet og er nu valideret)
+
+img/validering/html.validering.png
 
 
 ## JavaScript datastruktur
